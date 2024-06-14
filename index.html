@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description"
+        content="MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers">
+  <meta name="keywords" content="MeshAnything, Mesh Generation, Artist-Created Mesh, Transformers, 3D Generation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MeshAnything</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+<!--  <link rel="icon" href="./static/images/logo_single.png">-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">MeshAnything:<br> Artist-Created Mesh Generation<br> with Autoregressive Transformers</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://buaacyw.github.io/">Yiwen Chen</a><sup>1,2</sup><span class="note">*</span>,</span>
+              <span class="author-block">
+                <a href="https://tonghe90.github.io/">Tong He</a><sup>2</sup><span class="note">†</span>,</span>
+              <span class="author-block">
+                <a href="https://dihuang.me/">Di Huang</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="https://ywcmaike.github.io/">Weicai Ye</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="https://ch3cook-fdu.github.io/">Sijin Chen</a><sup>3</sup>,</span>
+              <span class="author-block">
+                <a href="https://me.kiui.moe/">Jiaxiang Tang</a><sup>4</sup></span>,
+              <br>
+              <span class="author-block">
+                <a href="https://chenxin.tech/">Xin Chen</a><sup>5</sup>,</span>
+              <span class="author-block">
+                <a href="https://caizhongang.github.io/">Zhongang Cai</a><sup>6</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com.hk/citations?user=jZH2IPYAAAAJ&hl=en">Lei Yang</a><sup>6</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.skicyyu.org/">Gang Yu</a><sup>7</sup>,</span>
+              <span class="author-block">
+                <a href="https://guosheng.github.io/">Guosheng Lin</a><sup>1</sup><span class="note">†</span>,</span>
+              <span class="author-block">
+                <a href="https://icoz69.github.io/">Chi Zhang</a><sup>8</sup><span class="note">†</span></span>
+
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>S-Lab, Nanyang Technological University,</span>
+              <span class="author-block"><sup>2</sup>Shanghai AI Lab</span><br>
+              <span class="author-block"><sup>3</sup>Fudan University,</span>
+              <span class="author-block"><sup>4</sup>Peking University,</span>
+              <span class="author-block"><sup>5</sup>University of Chinese Academy of Sciences</span><br>
+              <span class="author-block"><sup>6</sup>SenseTime Research,</span>
+              <span class="author-block"><sup>7</sup>Stepfun,</span>
+              <span class="author-block"><sup>8</sup>Westlake University</span>
+                            <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>*</sup>Work done during a research internship at Shanghai AI Lab.</span>
+              </div>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>†</sup>Corresponding Authors.</span>
+              </div>
+            </div>
+
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/pdf/2311.14521.pdf"
+                       class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
+                             alt="PDF"
+                             style="width: 1.25em; height: 1.25em;">
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+                    <span class="link-block">
+                      <a href="https://arxiv.org/abs/2311.14521"
+                         class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <img src="static/images/arxiv-logomark-small.svg"
+                               alt="arXiv"
+                               style="width: 1.25em; height: 1.25em;">
+                        </span>
+                        <span>arXiv</span>
+                      </a>
+                    </span>
+              <span class="link-block">
+                <a href="https://github.com/buaacyw/GaussianEditor"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github" style="width: 1.25em; height: 1.25em;"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+                    <span class="link-block">
+                      <a href="https://www.youtube.com/watch?v=TdZIICSFqsU&ab_channel=YiwenChen"
+                         class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+                               alt="YouTube"
+                               style="width: 1.25em; height: 1.25em;">
+                        </span>
+                        <span>Video</span>
+                      </a>
+                    </span>
+            <span class="link-block">
+              <a href="https://huggingface.co/spaces"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+                       alt="Hugging Face"
+                       style="width: 1.25em; height: 1.25em;">
+                </span>
+                <span>Gradio</span>
+              </a>
+            </span>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        <p><span class="dnerf">MeshAnything</span> converts any 3D representation into meshes created by human artists, i.e., Artist-Created Meshes (AMs). It can be combined with various 3D asset production pipelines, such as 3D reconstruction and generation, to achieve AM generation under various conditions.
+        </p>
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            <b>3D editing</b> plays a crucial role in many areas such as gaming and virtual reality. Traditional 3D editing methods, which rely on representations like meshes and point clouds, often fall short in realistically depicting complex scenes.
+          </p>
+          <p>
+            On the other hand, methods based on implicit 3D representations, like Neural Radiance Field (NeRF), render complex scenes effectively but suffer from slow processing speeds and limited control over specific scene areas. In response to these challenges, our paper presents <b>GaussianEditor</b>, an innovative and efficient 3D editing algorithm based on <b>Gaussian Splatting</b> (GS), a novel 3D representation technique.
+          </p>
+          <p>
+            GaussianEditor enhances precision and control in editing through our proposed <b>Gaussian Semantic Tracing</b>, which traces the editing target throughout the training process. Additionally, we propose <b>hierarchical Gaussian splatting</b> (HGS) to achieve stabilized and fine results under stochastic generative guidance from 2D diffusion models. We also develop editing strategies for efficient <b>object removal and integration</b>, a challenging task for existing methods. Our comprehensive experiments demonstrate GaussianEditor's superior control, efficacy, and rapid performance, marking a significant advancement in 3D editing.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/TdZIICSFqsU?si=wEHpZ-Kyxtem_KJs"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{chen2023gaussianeditor,
+    title={GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting},
+    author={Yiwen Chen and Zilong Chen and Chi Zhang and Feng Wang and Xiaofeng Yang and Yikai Wang and Zhongang Cai and Lei Yang and Huaping Liu and Guosheng Lin},
+    year={2023},
+    eprint={2311.14521},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>This website is constructed using the source code provided by <a
+            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, and we are grateful for their template.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
