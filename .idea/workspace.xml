@@ -4,49 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f86e8cf-5972-4f07-8017-f4a91b16640d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/arxiv-logomark-small.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/OBJLoader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/OrbitControls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/PLYLoader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/three.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/models/000396_.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/models/000739_.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/models/000845.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/models/001328.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/models/001490.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/models/002334.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/models/002853.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/models/005548_.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/MeshGPT.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/bulma-carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/bulma-slider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/bulma.css.map.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/bulma.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/fontawesome.all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/reconstruction_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/sequencing_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/bulma-carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/bulma-carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/bulma-slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/bulma-slider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/fontawesome.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/teaser/web_teaser.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/teaser/web_teaser.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/video/web_comparison_00111920.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/video/web_comparison_00112109.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/video/web_comparison_00112290.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/video/web_comparison_00112477.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/video/web_comparison_00112708.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/video/web_completion_00113336.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/video/web_completion_edit.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/video/web_outro.mp4" beforeDir="false" />
+    <list default="true" id="9f86e8cf-5972-4f07-8017-f4a91b16640d" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remesh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teaser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +51,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/meshanything_web/static/images&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/meshanything_web&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -95,7 +63,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\meshanything_web" />
+      <recent name="D:\Projects\meshanything_web\static" />
       <recent name="D:\Projects\meshanything_web\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\meshanything_web" />
     </key>
   </component>
@@ -132,10 +104,28 @@
       <workItem from="1718275273662" duration="3154000" />
       <workItem from="1718332087654" duration="5725000" />
       <workItem from="1718341792177" duration="904000" />
+      <workItem from="1718342816880" duration="683000" />
+      <workItem from="1718345860695" duration="2608000" />
+      <workItem from="1718429220452" duration="1344000" />
+      <workItem from="1718462803169" duration="3541000" />
+      <workItem from="1718507327328" duration="4464000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1718342982828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718342982828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
